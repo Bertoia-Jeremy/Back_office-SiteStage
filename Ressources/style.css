@@ -1,0 +1,33 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg_img{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 300px;
+}
+
+.form-group > label{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+
+
+form label{
+    margin-bottom: 0;
+}
+
+input + label{
+    font-weight: normal!important;
+    margin-bottom: 4px!important;
+}
+
+@media (max-width: 769px) {
+ 
+}
